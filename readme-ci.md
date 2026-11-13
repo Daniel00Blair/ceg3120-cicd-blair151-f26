@@ -48,7 +48,7 @@ docker stop local-site && docker rm local-site
 This proves that the container builds and runs successfully, with `docker ps` confirming active container execution and the browser displaying the web pages with all CSS styling correctly applied.
 
 ![Running Index Page](screenshots/running-index-dot-html-locally-from-container.png)
-![Running Webpage 2](screenshots/running-webpage-2-dot-html-locally-from-container.png)
+![Running Webpage 2](screenshots/running-webpage_2-dot-html-locally-from-container.png)
 
 ## Part 2 - GitHub Actions and DockerHub
 
