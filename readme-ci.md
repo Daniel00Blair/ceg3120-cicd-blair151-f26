@@ -186,6 +186,7 @@ The website content (`index.html`) (`webpage_2.html`) was designed and generated
 ### Architectural Diagram
 
 ```
+```mermaid
 graph LR
     A[Developer / WSL2] -->|Git Push Commit/Tag| B(GitHub Repository)
     B -->|Trigger Workflow| C(GitHub Actions CI/CD)
@@ -229,4 +230,4 @@ All core objectives—including containerization, automated GitHub Actions CI/CD
 
      * *"show me how to delete and re-create a git tag locally and remotely"*
 
-   * **Statement of Use**: Gemini was utilized to troubleshoot WSL2 Git command-line errors, clarify CI/CD workflow syntax requirements for subdirectory Dockerfiles, generate a simple test website for project 5 that was then used in project 6 correct errors in .yml file, and format the readme-ci.md.
+   * **Statement of Use**: Gemini was utilized to troubleshoot WSL2 Git command-line errors, clarify CI/CD workflow syntax requirements for subdirectory Dockerfiles, generate a simple test website for project 5 that was then used in project 6, correct errors in .yml file, and format the readme-ci.md.
